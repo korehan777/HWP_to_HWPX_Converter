@@ -6,7 +6,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+dist/*
 downloads/
 eggs/
 .eggs/
@@ -45,3 +45,6 @@ Output/*
 
 # Build artifacts
 *.spec
+
+# dist 폴더는 무시하되 사용설명서는 추적
+!dist/사용설명서.txt
